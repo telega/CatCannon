@@ -1,0 +1,29 @@
+{
+  "name": "catcannon",
+  "version": "1.0.0",
+  "description": "cat cannon for twitter",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "cat",
+    "cannon"
+  ],
+  "author": "Tom Allen <tom@telega.org> (http://telega.org)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8",
+    "twit": "^2.2.5",
+    "twitter": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.6.1",
+    "eslint-config-standard": "^6.1.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
