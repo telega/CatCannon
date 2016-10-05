@@ -1,3 +1,5 @@
+var port = process.env.PORT || 3000;
+
 require('dotenv').config();
 var hashtag = '#KanyeWest';
 var express = require('express');
@@ -46,6 +48,6 @@ tClient.stream('statuses/filter', {track: hashtag},  function(stream) {
 });
 
 
-http.listen(3000, function(){
-  console.log('listening on *:3000');
+http.listen(port, function(){
+  console.log('listening on *:' + port);
 });
