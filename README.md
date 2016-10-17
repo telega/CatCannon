@@ -1,6 +1,6 @@
 # CatCannon
-This cannon fires a cat whenever someone tweets about ["https://twitter.com/search?f=tweets&vertical=news&q=%23KanyeWest"](#KanyeWest)
+This cannon fires a cat whenever someone tweets about [#KanyeWest](https://twitter.com/search?f=tweets&vertical=news&q=%23KanyeWest)
 
 Made with Node.js, Socket.io, p5.js, and Twitter's Streaming API.
 
-See it on (https://catcannon.herokuapp.com/)[Heroku]!
+See it on [Heroku](https://catcannon.herokuapp.com/)!
